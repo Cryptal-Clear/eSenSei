@@ -49,11 +49,11 @@ file_list = [keys_info,ip_info,screen_info]
 # For windows - "C:\\File\\Path"
 # For others - "Enter/File/Path"
 
-file_path = "/media/bojack/D/Work/Project/Internship"
+file_path = "Enter the path"
 extend = "/"
 
-time_iter = Time during which this script will run
-no_of_iter_end = No of times this script will run
+time_iter = Running duration of this script
+no_of_iter_end = Number of times this script will run
 a = 0
 sub = "Activities"
 
