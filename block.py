@@ -17,9 +17,14 @@ with open('blacklistdeets.csv', 'r') as f:
 # Gets the url from the IP address using reverse DNS lookup
 for ip in iplist:
 #    print(ip)
-    url = socket.gethostbyaddr(ip[0])
+    try:
+        url = socket.gethostbyaddr(ip[0])
+        blacklist.append(url[0])
+    except:
+        print("URL not found")
+
 #    print(url[0])
-    blacklist.append(url[0])
+#    blacklist.append(url[0])
 
 #Path to the system blacklist file
 filepath = "C:\Windows\System32\drivers\etc\hosts"
