@@ -153,7 +153,7 @@ iplist=[]
 blacklist=[]
 
 # Read the blacklist csv file and gets the IPs
-with open('blacklistdeets.csv', 'r') as f:
+with open('results.csv', 'r') as f:
     reader = csv.reader(f)
     for row in reader:
         i = i + 1
