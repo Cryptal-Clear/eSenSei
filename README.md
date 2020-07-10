@@ -38,4 +38,14 @@ Os, Time, Ctypes and Platform - for assisting the rest of the modules
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Working
 
-We first need to first download the 3 files in the main branch and place them in a folder. Next we need to just run esensei.py
+We first need to first download the 3 files in the main branch and place them in a folder. 
+Next we need to just run eSenSei.py as an administrator. 
+If the child types any words which are in the blacklist, the code runs and runs and the output is emailed to the parent.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Output
+
+When a blacklisted word is typed, the browser tab is first closed and along with that, the screenshot along with keystrokes used by the child are sent to the parent's email id.
+Along with this, the browser history is parsed and detailed by including IPs and Geolocations of these sites and sent to the parent.
+Apart from this, the blacklisted sites are added to the system browser blacklist, so the child can't open them ever again.
+ 
