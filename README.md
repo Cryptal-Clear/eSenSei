@@ -15,7 +15,6 @@ This module mainly focuses on looking for suspicious websites being visited by t
 
 This module focuses on the keystrokes that the child uses, and looks out for fishy information that the child is typing. This would help when the child is using messaging applications like Facebook Messenger or Whatsapp Web, where we cannot find details of every message being sent in the browser history.  
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Libraries
 
 There are some Libraries that you will need to Download:
@@ -35,14 +34,12 @@ Psutil - for process killing
 Smtplib and Email - for sending the resulting files in an email to the parent
 Os, Time, Ctypes and Platform - for assisting the rest of the modules
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Working
 
 We first need to first download the 3 files in the main branch and place them in a folder in the child's system.  
 Next we need to just run eSenSei.py as an administrator and the files will hide themselves. 
 If the child types any words which are in the blacklist, the code runs and runs and the output is emailed to the parent.
 
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Output
 
 When a blacklisted word is typed, the browser tab is first closed and along with that, the screenshot along with keystrokes used by the child are sent to the parent's email id.
