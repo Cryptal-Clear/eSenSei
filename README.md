@@ -5,7 +5,7 @@
 
 eTousan is a Cyber Parental Control tool, that we developed as a part of the Gurugram Police Cyber Security Summer Internship 2020. 
 
-The tool basically has two primary modules we have are:
+The tool basically has two primary modules:
 
 **Module 1: Reconnaissance using OSINT Framework by Web Scraping**
 
