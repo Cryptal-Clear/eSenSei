@@ -38,8 +38,8 @@ Os, Time, Ctypes and Platform - for assisting the rest of the modules
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # Working
 
-We first need to first download the 3 files in the main branch and place them in a folder. 
-Next we need to just run eSenSei.py as an administrator. 
+We first need to first download the 3 files in the main branch and place them in a folder in the child's system.  
+Next we need to just run eSenSei.py as an administrator and the files will hide themselves. 
 If the child types any words which are in the blacklist, the code runs and runs and the output is emailed to the parent.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
