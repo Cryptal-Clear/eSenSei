@@ -1,7 +1,7 @@
 # eTousan
 
 ****
-#Intro
+# Intro
 
 eTousan is a Cyber Parental Control tool, that we developed as a part of the Gurugram Police Cyber Security Summer Internship 2020. 
 
@@ -16,7 +16,7 @@ This module mainly focuses on looking for suspicious websites being visited by t
 This module focuses on the keystrokes that the child uses, and looks out for fishy information that the child is typing. This would help when the child is using messaging applications like Facebook Messenger or Whatsapp Web, where we cannot find details of every message being sent in the browser history.  
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Libraries
+# Libraries
 
 There are some Libraries that you will need to Download:
 
@@ -36,6 +36,6 @@ Smtplib and Email - for sending the resulting files in an email to the parent
 Os, Time, Ctypes and Platform - for assisting the rest of the modules
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Working
+# Working
 
-So we need to 
+We first need to first download the 3 files in the main branch and place them in a folder. Next we need to just run esensei.py
