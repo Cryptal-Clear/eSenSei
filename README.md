@@ -9,7 +9,7 @@ The tool basically has two primary modules:
 
 **Module 1: Reconnaissance and Blacklisting using OSINT Framework by Web Scraping**
 
-This module mainly focuses on looking for suspicious websites being visited by the child, and skeptical keyword searches on safe platforms like Google. We will mainly be analysing the browser history for such information, and create a report consisting of all these details.
+This module mainly focuses on looking for suspicious websites being visited by the child, and sketchy keyword searches on safe platforms like Google. We will mainly be analysing the browser history for such information, and create a report consisting of all these details.
 
 **Module 2: System Activity Information Gathering**
 
