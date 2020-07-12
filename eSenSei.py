@@ -47,6 +47,7 @@ ip_info = "Ip.txt"
 screen_info = "Screenshot.png"
 weird_info = "weird.csv"
 result_info = "results.csv"
+black = "blacklist.csv"
 file_list = [keys_info, ip_info, screen_info, weird_info, result_info]
 
 # For windows - "C:\\File\\Path"
@@ -215,11 +216,14 @@ while no_of_iter < no_of_iter_end:
         f = open(file_path + extend + keys_info, "r")
         line = f.read()
         for i in line.split('\n'):
-            if "porn" in i:
-                proc()
-                new_sub = "ALERT !!! 18+ CONTENT FOUND !!!"
-                a = 1
-                break
+            f2 = open(file_path + extend + black, "r")
+            line2 = f2.read()
+            for j in line2.split('\n'):            
+                if j in i:
+                    proc()
+                    new_sub = "ALERT !!! 18+ CONTENT FOUND !!!"
+                    a = 1
+                    break
 
         try:
             for i in file_list:
