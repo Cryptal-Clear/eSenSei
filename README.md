@@ -44,5 +44,4 @@ If the child types any words which are in the blacklist, the code runs and runs 
 
 When a blacklisted word is detected, the browser tab is first closed, screenshot is taken and keystrokes are sent to the parent's email id.
 The browser history is parsed and detailed by including IPs and Geolocations of these sites and sent to the parent via email.
-Apart from this, the blacklisted sites are added to the system browser blacklist, so the child can't open them ever again. On top of that, if the child types these blacklisted words more than thrice, a system shutdown is initiated.
- 
+Apart from this, the blacklisted sites are added to the system browser blacklist, so the child can't open them ever again.
